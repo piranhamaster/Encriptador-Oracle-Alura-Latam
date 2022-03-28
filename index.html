@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Primer Challenge Oracle</title>
+</head>
+<body>
+    <h1 class="titulo_principal">ENCRIPTADOR DE TEXTO</h1>
+    <section class="formularios">
+        <div class="form_encriptar">
+            <textarea id="entrada_texto" name="textarea" rows="10" cols="50" onchange="this.value=this.value.toLowerCase();" placeholder="Sin caracteres especiales, mayusculas y acentos"></textarea>
+            <br>
+            <br>
+            <button class="boton_izquierdo" onclick="botonEncriptar()">Encriptar</button>
+            <button class="boton_derecho" onclick="botonDesencriptar()">Desencriptar</button>
+            <br>
+            <br>
+        </div>
+    
+        <div class="form-desencriptar">
+            <textarea id="salida_texto" name="textarea" rows="10" cols="50" onchange="this.value=this.value.toLowerCase()"> </textarea>
+            <br>
+            <br>
+            <button class="boton_izquierdo" onclick="botonCopiar()">Copiar</button>
+        </div>
+        
+    </section>
+
+    <footer class="derechos">
+        <br>
+        <p>copyright © 2022 Stalyn semprun</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

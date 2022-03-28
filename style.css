@@ -1,0 +1,28 @@
+body { 
+    background-image: url("https://cdn.pocket-lint.com/r/s/970x/assets/images/159037-cars-news-is-this-what-the-apple-car-will-look-like-image1-n1v8icryom-jpg.webp");
+}
+.form_encriptar { 
+    width: 1300px; 
+    text-align:center;
+}
+.form-desencriptar, .titulo_principal {
+    width: 1300px; 
+    text-align:center;
+    font-family: sans-serif;
+} 
+.derechos {
+    width: 1300px; 
+    text-align:center;
+} 
+
+.boton_izquierdo, .boton_derecho, .entrada_texto {
+    border-color: black;
+    
+}
+textarea {
+    background-color: #000;
+    color: #fff;
+    opacity: .5;
+}
+
+    
